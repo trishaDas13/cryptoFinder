@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    background-color: rgb(229,229,229);
+}
+/* navbar */
+nav{
+    padding: 0.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+}
+nav .logo{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+nav .logo img{
+    width: 3rem;
+}
+nav .logo a{
+    text-decoration: none;
+    color: black;
+    font-size:22px;
+}
+nav a button{
+    padding: 8px 1rem;
+    font-size: 20px;
+    background: transparent;
+    outline: none;
+    border:1px solid rgb(252,163,17);
+    border-radius: 10px;
+    cursor: pointer;
+}
+nav a button:hover{
+    color: white;
+    background-color: rgb(252,163,17);
+}
+/* main section  */
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1rem;
+    text-align: center;
+}
+main h1{
+    color: rgb(252,163,17);
+}
+.input{
+    width: 100%;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgb(134, 134, 134);
+}
+input{
+    width: 500px;
+    height: 3rem;
+    outline: none;
+    background-color: rgba(252,163,17, 0.37);
+    border: none;
+    border-bottom: 1px solid chocolate;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+main .input button{
+    padding: 10px 40px;
+    margin-left: 1rem;
+    border-radius: 8px;
+    background-color: transparent;
+    font-size: 20px;
+    border: 2px solid rgb(252,163,17);
+    cursor: pointer;
+}
+main .input button:hover{
+    background-color: rgb(252,163,17, 0.7);
+    color: white;
+    box-shadow: 0 0 10px black;
+}
+.cryptoContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 2rem 0;
+}
+.cryptoCard{
+    width: 75%;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+.cryptoCard:hover{
+    box-shadow: 0 0 10px black;
+}
+.cryptoName{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+.cryptoCard button{
+    background: transparent;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 16px;
+    cursor: pointer;
+}
+.cryptoCard button:hover{
+    color: white;
+    background-color: black;
+}
+

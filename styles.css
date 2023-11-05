@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    background-color: rgb(229,229,229);
+}
+/* navbar */
+nav{
+    padding: 0.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+}
+nav .logo{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+nav .logo img{
+    width: 3rem;
+}
+nav .logo a{
+    text-decoration: none;
+    color: black;
+    font-size:22px;
+}
+nav a button{
+    padding: 8px 1rem;
+    font-size: 20px;
+    background: transparent;
+    outline: none;
+    border:1px solid rgb(252,163,17);
+    border-radius: 10px;
+    cursor: pointer;
+}
+nav a button:hover{
+    color: white;
+    background-color: rgb(252,163,17);
+}
+/* hero section  */
+.heroSection{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-top: 4rem;
+}
+.heroSection img{
+    width: 500px;
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+/* coin section  */
+#topCoin{
+    text-align: center;
+    padding-bottom: 1rem;
+    color: rgb(252,163,17);
+}
+.animationArea{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    animation: slide 20s linear infinite alternate;
+    position: relative;
+    
+}
+@keyframes  slide {
+    0% {
+        right: -680px;
+    }
+    100% {
+        right: 25%;
+    }
+}
+.priceCard{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    gap: 30px;
+}
+.priceCard img{
+    height: 3rem;
+    padding: 0.5rem 1rem 0.5rem;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-top: 5rem;
+    padding: 1rem;
+}
+footer img{
+    width: 2rem;
+
+}
