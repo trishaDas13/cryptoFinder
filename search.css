@@ -105,9 +105,11 @@ main .input button:hover{
     box-shadow: 0 0 10px black;
 }
 .cryptoName{
-    width: 30%;
     display: flex;
-    justify-content: space-around;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
 }
 .cryptoCard button{
     background: transparent;
